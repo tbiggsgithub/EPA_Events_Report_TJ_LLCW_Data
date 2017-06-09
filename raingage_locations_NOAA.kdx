@@ -1,0 +1,22 @@
+Layout {
+  FileType : "delimited"
+  Delimiter : ","
+  Latitude : "1"
+  Longitude : "2"
+  SkipRows : "1"
+  TextCodec : "System"
+  FieldDefinitions {
+    0 {
+      Name : "Station"
+      Type : "string"
+    }
+    1 {
+      Name : "Lat"
+      Type : "double"
+    }
+    2 {
+      Name : "Long"
+      Type : "double"
+    }
+  }
+}
